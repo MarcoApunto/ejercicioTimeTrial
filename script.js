@@ -1,5 +1,6 @@
 function forcePsswd() {
 	let idPsswd = document.getElementById("psswd").value;
+	let idConfirmPsswd = document.getElementById("confirm-psswd").value;
 	let count = 0;
 	let i = 0;
 
@@ -42,14 +43,7 @@ function forcePsswd() {
 		event.preventDefault();
 		alert("Contraseña no válida, al menos debe ser mínimo 10 y máximo 15 de longitud");
 	}
-}
-
-function confirPsswd () {
-	let idPsswd = document.getElementById("psswd").value;
-	let idConfirmPsswd = document.getElementById("confirm-psswd").value;
-
-
-	if (idConfirmPsswd !== idPsswd) {
+	if (idConfirmPsswd != idPsswd) {
 		alert("Las contraseñas no coinciden.");
 	}
 }
