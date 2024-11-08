@@ -1,4 +1,4 @@
-# ejercicioTimeTrial
+# Ejercicio Time Trial
 Ejercicio cuenta atrás para Desarrollo Web
 
 Ejercicio: Vamos a realizar la validación de una contraseña segura en un formulario de registro (para registrarnos sólo necesitamos un email, que se puede validar desde HTML y una contraseña, que se debe repetir y validar desde JS)
